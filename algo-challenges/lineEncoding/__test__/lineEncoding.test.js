@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { lineEncoding } = require("../lineEncoding");
+const lineEncoding = require("../lineEncoding");
 
 describe("Line Encoding", () => {
     test("Encod Line", () => {

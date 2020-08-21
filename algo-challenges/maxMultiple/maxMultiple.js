@@ -12,4 +12,4 @@ function maxMultiple(divisor, bound) {
     return divisor * quotient;
 }
 
-module.exports = { maxMultiple };
+module.exports = maxMultiple;

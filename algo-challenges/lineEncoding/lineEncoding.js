@@ -28,4 +28,4 @@ function lineEncoding(line) {
     return encodedLine;
 }
 
-module.exports = { lineEncoding };
+module.exports = lineEncoding;

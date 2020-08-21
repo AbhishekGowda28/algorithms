@@ -25,4 +25,4 @@ function incrementalBackups(lastBackupTime, fileChanges) {
     return removeDuplicatesFromArray(ids.sort(sortCompersion));
 }
 
-module.exports = { incrementalBackups };
+module.exports = incrementalBackups;

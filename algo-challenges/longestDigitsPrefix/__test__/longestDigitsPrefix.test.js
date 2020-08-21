@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { longestDigitsPrefix } = require("../longestDigitsPrefix");
+const longestDigitsPrefix = require("../longestDigitsPrefix");
 
 describe("Longest digit Prefix", () => {
     test("No digits", () => {

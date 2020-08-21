@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { incrementalBackups } = require("../incrementalBackups");
+const incrementalBackups = require("../incrementalBackups");
 
 describe("Incremental Backups", () => {
     test("Backing up files", () => {

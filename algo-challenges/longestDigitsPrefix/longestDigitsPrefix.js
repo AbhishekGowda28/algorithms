@@ -16,4 +16,4 @@ function longestDigitsPrefix(inputStr) {
     return longestStr;
 }
 
-module.exports = { longestDigitsPrefix };
+module.exports = longestDigitsPrefix;

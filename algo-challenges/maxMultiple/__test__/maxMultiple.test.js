@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { maxMultiple } = require("../maxMultiple");
+const maxMultiple = require("../maxMultiple");
 
 describe("Maximum Multiple of Divisor", () => {
     test("Multiple less than bound", () => {
