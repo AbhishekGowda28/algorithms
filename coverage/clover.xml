@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1598033773674" clover="3.2.0">
-  <project timestamp="1598033773675" name="All files">
+<coverage generated="1598033966786" clover="3.2.0">
+  <project timestamp="1598033966786" name="All files">
     <metrics statements="1133" coveredstatements="1133" conditionals="493" coveredconditionals="492" methods="240" coveredmethods="240" elements="1866" coveredelements="1865" complexity="0" loc="1133" ncloc="1133" packages="101" files="120" classes="120"/>
     <package name="algo-challenges.absoluteValuesSumMinization">
       <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
