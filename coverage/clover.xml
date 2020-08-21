@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1597997383074" clover="3.2.0">
-  <project timestamp="1597997383075" name="All files">
-    <metrics statements="1136" coveredstatements="1136" conditionals="493" coveredconditionals="492" methods="239" coveredmethods="239" elements="1868" coveredelements="1867" complexity="0" loc="1136" ncloc="1136" packages="101" files="120" classes="120"/>
+<coverage generated="1598030170483" clover="3.2.0">
+  <project timestamp="1598030170483" name="All files">
+    <metrics statements="1133" coveredstatements="1133" conditionals="493" coveredconditionals="492" methods="240" coveredmethods="240" elements="1866" coveredelements="1865" complexity="0" loc="1133" ncloc="1133" packages="101" files="120" classes="120"/>
     <package name="algo-challenges.absoluteValuesSumMinization">
       <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="6" coveredmethods="6"/>
       <file name="absoluteValuesSumMinization.js" path="D:\git\algorithms\algo-challenges\absoluteValuesSumMinization\absoluteValuesSumMinization.js">
@@ -29,19 +29,16 @@
       </file>
     </package>
     <package name="algo-challenges.add">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="add.js" path="D:\git\algorithms\algo-challenges\add\add.js">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
-        <line num="15" count="8" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
       </file>
     </package>
     <package name="algo-challenges.addBorder">

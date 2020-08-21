@@ -1,12 +1,6 @@
 function add() {
-	let argumentsLength = arguments.length;
-	let sum = 0;
-	while (argumentsLength > 0) {
-		sum += arguments[--argumentsLength];
-	}
-
-	// sum was returned as string
-	return Number(sum);
+	const arr = Array.from(arguments);
+	return arr.reduce((prev, curr) => prev += Number(curr), 0);
 }
 
 function addWithSpreadOperator(...params) {
