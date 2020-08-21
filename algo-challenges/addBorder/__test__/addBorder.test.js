@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { addBorder } = require("../addBorder");
+const addBorder = require("../addBorder");
 
 describe("Add Border", () => {
     test("Two elements", () => {

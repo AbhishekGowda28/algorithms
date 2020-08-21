@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { adjacentProduct } = require("../adjacentProduct");
+const adjacentProduct = require("../adjacentProduct");
 
 describe("Adjacent Product", () => {
     test("Empty Array", () => {

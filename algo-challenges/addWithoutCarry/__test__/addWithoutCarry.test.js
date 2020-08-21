@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { addWithoutCarry } = require("../addWithoutCarry");
+const addWithoutCarry = require("../addWithoutCarry");
 
 describe("Adding without Carry", () => {
     test("Same number of digits", () => {

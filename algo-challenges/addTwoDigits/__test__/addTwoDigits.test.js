@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { addTwoDigits } = require("../addTwoDigits");
+const addTwoDigits = require("../addTwoDigits");
 
 describe("Add two digits", () => {
     test("Test for two digits", () => {

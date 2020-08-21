@@ -13,4 +13,4 @@ function addWithoutCarry(value1, value2) {
     return result;
 }
 
-module.exports = { addWithoutCarry };
+module.exports = addWithoutCarry;

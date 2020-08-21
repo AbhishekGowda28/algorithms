@@ -13,6 +13,4 @@ function addBorder(picture) {
 	return borderedPicture;
 }
 
-module.exports = {
-	addBorder,
-};
+module.exports = 	addBorder;

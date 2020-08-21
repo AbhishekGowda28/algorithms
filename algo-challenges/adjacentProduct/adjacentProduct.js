@@ -35,6 +35,4 @@ function adjacentProduct(matrix) {
 	return matrix.reduce(matrixReduction, initalValue);
 }
 
-module.exports = {
-	adjacentProduct,
-};
+module.exports = adjacentProduct;
