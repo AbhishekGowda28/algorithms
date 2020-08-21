@@ -1,5 +1,5 @@
 # algorithms
 Collection of algorithms and there solutions
 
-### Algorithm coverage
-[Coverage](https://abhishekgowda28.github.io/algorithms/coverage/lcov-report/)
+## STATUS
+![Algorithm Status](https://github.com/AbhishekGowda28/algorithms/workflows/Unit%20Test/badge.svg?branch=master)
