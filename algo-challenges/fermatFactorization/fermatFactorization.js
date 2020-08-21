@@ -1,6 +1,6 @@
 // @ts-check
 
-const { isSquare } = require("./utils/Math/isSquare");
+const { isSquare } = require("../../utils/Math/isSquare");
 
 /**
  * @param {number} number
@@ -16,4 +16,4 @@ function fermatFactorization(number) {
     return [firstNumber, Math.sqrt(secondNumber)];
 }
 
-module.exports = { fermatFactorization };
+module.exports = fermatFactorization;

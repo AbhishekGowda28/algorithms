@@ -5,10 +5,10 @@ function circleOfNumbers(numberOfPlayers, playerNumber) {
     if (playerNumber > numberOfPlayers) {
         return "Player does not exist";
     }
-    const { getInteger } = require("./utils/Math/getInteger");
+    const { getInteger } = require("../../utils/Math/getInteger");
     const split = getInteger(numberOfPlayers / 2);
 
     return playerNumber + split;
 }
 
-module.exports = { circleOfNumbers };
+module.exports = circleOfNumbers;

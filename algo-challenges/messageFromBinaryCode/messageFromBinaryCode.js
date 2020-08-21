@@ -1,6 +1,6 @@
 // @ts-check
 
-const { binaryToDecimal } = require("./numeric-conversion/binaryToDecimal");
+const { binaryToDecimal } = require("../../numeric-conversion/binaryToDecimal");
 
 /**
  * @param {string} encryptedCode

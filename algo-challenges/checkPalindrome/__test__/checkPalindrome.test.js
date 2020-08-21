@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { checkPalindrome } = require("../checkPalindrome");
+const checkPalindrome = require("../checkPalindrome");
 
 describe("Check for the string to be palindrom", () => {
     test("String is a palindrom", () => {

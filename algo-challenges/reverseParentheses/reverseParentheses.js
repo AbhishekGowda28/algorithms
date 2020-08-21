@@ -1,6 +1,6 @@
 // @ts-check
 
-const { reverseString } = require("./utils/reverseString");
+const { reverseString } = require("../../utils/reverseString");
 
 /**
  * @param {string} inputString
@@ -16,4 +16,4 @@ function reverseParentheses(inputString) {
     return inputString;
 }
 
-module.exports = { reverseParentheses };
+module.exports = reverseParentheses;

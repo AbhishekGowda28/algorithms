@@ -1,6 +1,6 @@
 // @ts-check
 
-const { removeDuplicatesFromArray } = require("./utils/utils");
+const { removeDuplicatesFromArray } = require("../../utils/utils");
 
 /**
  * @param {number} a

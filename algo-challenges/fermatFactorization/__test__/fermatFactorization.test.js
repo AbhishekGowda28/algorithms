@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { fermatFactorization } = require("../fermatFactorization");
+const fermatFactorization = require("../fermatFactorization");
 
 describe("Fermat's factorization method", () => {
     test("Simple values with single pass", () => {

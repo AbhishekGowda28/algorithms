@@ -1,6 +1,6 @@
 // @ts-check
 
-const { getInteger } = require("./utils/Math/getInteger");
+const { getInteger } = require("../../utils/Math/getInteger");
 
 /**
  * @param {number} divisor

@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { proCategorization } = require("../proCategorization");
+const proCategorization = require("../proCategorization");
 
 describe("Agency job Selection", () => {
     test("Job Selection", () => {

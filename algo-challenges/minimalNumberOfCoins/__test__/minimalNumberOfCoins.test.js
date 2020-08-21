@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { minimalNumberOfCoins } = require("../minimalNumberOfCoins");
+const minimalNumberOfCoins = require("../minimalNumberOfCoins");
 
 describe("Minimum Number of Coins", () => {
     test("Use minimum", () => {

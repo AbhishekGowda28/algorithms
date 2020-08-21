@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { circleOfNumbers } = require("../circleOfNumbers");
+const circleOfNumbers = require("../circleOfNumbers");
 
 describe("Circle of Number", () => {
     test("Number of players are 0", () => {

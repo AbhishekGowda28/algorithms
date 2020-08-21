@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { reverseParentheses } = require("../reverseParentheses");
+const reverseParentheses = require("../reverseParentheses");
 
 describe("Reverse of Parenthese", () => {
     test("Single Parenthese", () => {

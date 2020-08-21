@@ -1,6 +1,6 @@
 // @ts-check
 
-const fibonacciNumbers = require("./utils/Math/fibonacci");
+const fibonacciNumbers = require("../../utils/Math/fibonacci");
 
 /**
  * @param {number} count

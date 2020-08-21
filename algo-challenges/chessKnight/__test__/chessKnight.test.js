@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { chessKnight } = require("../chessKnight");
+const chessKnight = require("../chessKnight");
 
 describe("Number of moves possible by Knight", () => {
     test("Knight at the lower left corner of the board", () => {

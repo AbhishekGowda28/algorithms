@@ -5,7 +5,7 @@
  * @param {string[]} preferences
  */
 function factorPreferences(pros, preferences) {
-    const utils = require("./utils/utils");
+    const utils = require("../../utils/utils");
     const valueAssign = {};
     /**
      * @param {string} professional
@@ -41,4 +41,4 @@ function proCategorization(pros, preferences) {
     return anotherEmptyArr;
 }
 
-module.exports = { proCategorization };
+module.exports = proCategorization;

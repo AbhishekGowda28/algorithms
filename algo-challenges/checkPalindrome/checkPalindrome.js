@@ -1,4 +1,4 @@
-const { reverseString } = require("./utils/reverseString");
+const { reverseString } = require("../../utils/reverseString");
 
 function checkPalindrome(inputString) {
     const reverseStr = reverseString(inputString);
@@ -6,4 +6,4 @@ function checkPalindrome(inputString) {
     return inputString === reverseStr;
 }
 
-module.exports = { checkPalindrome };
+module.exports = checkPalindrome;

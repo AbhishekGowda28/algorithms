@@ -1,4 +1,4 @@
-const chess = require("./utils/chess");
+const chess = require("../../utils/chess");
 
 function chessBoardCellColor(cell1, cell2) {
     const cell1Loc = chess.findPawn(cell1);
@@ -14,4 +14,4 @@ function chessBoardCellColor(cell1, cell2) {
     }
 }
 
-module.exports = { chessBoardCellColor };
+module.exports =  chessBoardCellColor;

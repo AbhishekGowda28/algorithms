@@ -1,5 +1,5 @@
-const { isPrime } = require("./utils/Math/isPrime");
-const { getPrimeNumbers } = require("./utils/Math/getPrimeNumbers");
+const { isPrime } = require("../../utils/Math/isPrime");
+const { getPrimeNumbers } = require("../../utils/Math/getPrimeNumbers");
 
 function digitsProduct(inputNumber) {
     if (typeof inputNumber === "number") {
@@ -20,4 +20,4 @@ function digitsProduct(inputNumber) {
     throw new Error("Invalid Input");
 }
 
-module.exports = { digitsProduct };
+module.exports = digitsProduct;

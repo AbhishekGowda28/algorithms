@@ -1,4 +1,4 @@
-const { secondsToMinute } = require("./time-coversion/secondsToMinute");
+const { secondsToMinute } = require("../../time-coversion/secondsToMinute");
 
 function lateRide(seconds) {
     const time = secondsToMinute(seconds).split(":");

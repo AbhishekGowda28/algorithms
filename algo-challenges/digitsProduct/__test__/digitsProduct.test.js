@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { digitsProduct } = require("../digitsProduct");
+const digitsProduct = require("../digitsProduct");
 
 describe("Product of digit", () => {
     test("Non prime number", () => {

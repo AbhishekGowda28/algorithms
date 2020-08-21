@@ -1,5 +1,5 @@
 function chessKnight(kinghtCell) {
-    const { KnightMovements, findPawn } = require("./utils/chess");
+    const { KnightMovements, findPawn } = require("../../utils/chess");
     const knightPossibleMoves = Object.keys(KnightMovements);
 
     const knightLocation = findPawn(kinghtCell);
@@ -15,4 +15,4 @@ function chessKnight(kinghtCell) {
     return knightMoves;
 }
 
-module.exports = { chessKnight };
+module.exports = chessKnight;

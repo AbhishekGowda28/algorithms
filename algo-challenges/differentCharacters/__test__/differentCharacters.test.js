@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { differentCharacters } = require("../differentCharacters");
+const differentCharacters = require("../differentCharacters");
 
 describe("Number of different characters in the array", () => {
     test("Array is empty", () => {

@@ -1,5 +1,5 @@
 const expect = require("expect");
-const { chessBoardCellColor } = require("../chessBoardCellColor");
+const chessBoardCellColor = require("../chessBoardCellColor");
 
 describe("Chess Board Cell Color", () => {
     test("Same cell", () => {
