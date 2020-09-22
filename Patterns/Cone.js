@@ -1,21 +1,20 @@
-// @ts-check
-
-/**
- * @param {string} pattern
- * @param {number} num
- */
 function Cone(pattern, num) {
-    const _funnel = [];
-    for (let _row = Math.ceil(num / 2); _row >= 0; _row--) {
-        _funnel[_row] = [];
-        for (let _column = 0; _column < num; _column++) {
-            _funnel[_row][_column] = `${pattern} ${_row} ${_column}`;
+    const higherMid = Math.ceil(num / 2);
+    let lowerMid = Math.floor(num / 2);
+    for (let row = 1; row <= higherMid; row++) {
+        let space = "";
+        let patterns = "";
+        for (let counter = lowerMid; counter > 0; counter--) {
+            space += " ";
         }
+        for (let count = space.length * 2; count < num; count++) {
+            patterns += pattern;
+        }
+        lowerMid--;
+        console.log(space, patterns);
     }
-
-    return _funnel;
 }
 
-console.log(Cone("*", 3));
+Cone("*", 15)
 
 module.exports = Cone;
