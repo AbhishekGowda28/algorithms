@@ -13,5 +13,4 @@ function problem1() {
    return sum;
 }
 
-// export { problem1 };
-module.exports = {problem1};
+export { problem1 };
