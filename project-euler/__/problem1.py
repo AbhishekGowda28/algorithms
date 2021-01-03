@@ -3,5 +3,16 @@
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
 
-def mutltipleOf3And5():
-    
+def mutltipleOf3And5(value):
+    if  value % 3 == 0 or value % 5 == 0:
+        return True
+    return False
+
+def numericals():
+    result = 0
+    for number in range(1,1000):
+        if mutltipleOf3And5(number) == True:
+            result += number
+    print(result)
+
+numericals()
