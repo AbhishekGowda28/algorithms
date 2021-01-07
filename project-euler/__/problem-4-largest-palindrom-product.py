@@ -3,4 +3,20 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 import helper.palindrom
 
-print(helper.palindrom.isPalindrom(50005))
+
+def problem4():
+    first = 999
+    second = 999
+    palindromProducts = []
+    while first > 99 or second > 99:
+        product = first*second
+        if helper.palindrom.isPalindrom(product):
+            palindromProducts.append(product)
+        second -= 1
+        if second < 100:
+            first -= 1
+            second = 999
+    print("No Palindroms found")
+    sorted(palindromProducts)
+
+problem4()
