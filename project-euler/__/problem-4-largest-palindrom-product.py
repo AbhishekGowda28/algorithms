@@ -7,16 +7,15 @@ import helper.palindrom
 def problem4():
     first = 999
     second = 999
-    palindromProducts = []
-    while first > 99 or second > 99:
+    highest = 0
+    while first > 99 and second > 99:
         product = first*second
-        if helper.palindrom.isPalindrom(product):
-            palindromProducts.append(product)
+        if helper.palindrom.isPalindrom(product) and product > highest:
+            highest = product
         second -= 1
         if second < 100:
             first -= 1
             second = 999
-    print("No Palindroms found")
-    sorted(palindromProducts)
+    return highest
 
-problem4()
+print(problem4())
