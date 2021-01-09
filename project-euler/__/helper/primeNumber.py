@@ -1,8 +1,11 @@
 import math
 
 
-def primeNumebers(start, last):
-    rangeList = defineRange(start, last)
+def primeNumbers(start, last):
+    if last < 2:
+        print("Prime Numbers cannot be found")
+        return []
+    rangeList = defineRange(start, last+1)
     primes = []
 
     for count in range(2, math.ceil(math.sqrt(last))):
@@ -14,6 +17,11 @@ def primeNumebers(start, last):
             primes.append(block[0])
 
     return primes
+
+
+def isPrime(number):
+    primes = primeNumbers(2, number)
+    return primes.__contains__(number)
 
 
 def defineRange(start, end):

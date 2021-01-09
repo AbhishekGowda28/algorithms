@@ -8,7 +8,7 @@ from helper import primeNumber
 
 
 def primeFactor(value):
-    primes = primeNumber.primeNumebers(
+    primes = primeNumber.primeNumbers(
         2, math.floor(math.sqrt(value / 2)))
     factors = []
     for prime in primes:
