@@ -1,16 +1,16 @@
+import math
+
 from helper import primeNumber
 
+
 def problem5():
-
-    return True
-
-
-
-# print(problem5())
-
-def factorsOfNumber(number):
-    print(number)
-    print(primeNumber.isPrime(number))
+    count = 2
+    lcm = 1
+    while count < 21:
+        print(lcm, count)
+        lcm = math.floor((lcm * count)/math.gcd(lcm, count))
+        count += 1
+    return lcm
 
 
-factorsOfNumber(20)
+print(problem5())
