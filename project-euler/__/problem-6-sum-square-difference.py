@@ -9,14 +9,11 @@
 import math
 
 
-def problem6():
-    sum_sqaure = 0
-    sum = 0
-    for count in range(1, 101):
-        sum_sqaure += math.floor(count**2)
-        sum += count
-    sum = math.floor(sum**2)
+def problem6(limit):
+    # f(n) = n/6*(2n+1)*(n+1) ; sum of the squares of the numbers
+    sum_sqaure = (limit*((2*limit)+1)*(limit+1))/6
+    sum = ((limit*(limit+1))/2) ** 2  # sum(n) = n(n+1)/2
     return math.floor(sum-sum_sqaure)
 
 
-print(problem6())
+print(problem6(100))
