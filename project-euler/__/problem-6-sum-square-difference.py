@@ -8,15 +8,15 @@
 
 import math
 
+
 def problem6():
-    count = 1
     sum_sqaure = 0
     sum = 0
-    while count < 101:
+    for count in range(1, 101):
         sum_sqaure += math.floor(count**2)
-        sum+=count
-        count+=1
+        sum += count
     sum = math.floor(sum**2)
     return math.floor(sum-sum_sqaure)
+
 
 print(problem6())
