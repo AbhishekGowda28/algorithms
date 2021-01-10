@@ -7,7 +7,6 @@ def problem5():
     count = 2
     lcm = 1
     while count < 21:
-        print(lcm, count)
         lcm = math.floor((lcm * count)/math.gcd(lcm, count))
         count += 1
     return lcm
