@@ -5,6 +5,8 @@ def primeNumbers(start, last):
     if last < 2:
         print("Prime Numbers cannot be found")
         return []
+    if last == 2:
+        return [2]
     rangeList = defineRange(start, last+1)
     primes = [2]
     mark = 0
