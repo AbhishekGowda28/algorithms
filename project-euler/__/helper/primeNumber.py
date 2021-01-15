@@ -46,3 +46,11 @@ def defineRange(start, end):
                 if number % 2 != 0:
                     rangeList.append([number, True])
     return rangeList
+
+def getPrimeFactors(number):
+    primes = primeNumbers(2, number)
+    primeFactors = []
+    for prime in primes:
+        if number % prime == 0:
+            primeFactors.append(prime)
+    return primeFactors
