@@ -3,15 +3,18 @@ from helper import primeNumber
 
 
 def problem12():
+    primes = primeNumber.primeNumbers(2,1000)
+    print(primes)
+    limit = 500
     sum = 0
-    counter = 1
+    number = 1
     while True:
+        sum += number
         numberOfFactors = getNumberOfFactos(sum)
         print(sum, numberOfFactors)
-        if numberOfFactors > 500:
+        if numberOfFactors > limit:
             return sum
-        sum = floor((counter*(counter+1))/2)
-        counter = counter + 1
+        number += 1
     return sum
 
 
