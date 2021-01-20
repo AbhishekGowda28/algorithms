@@ -3,7 +3,7 @@ from math import floor
 def problem13():
     limit = 10
     longestChain = 0
-    number = 1
+    number = 13
     requiredNumber = 0
     while longestChain < limit:
         interMediate = number
@@ -17,6 +17,7 @@ def problem13():
         if intermediateLongChain > longestChain:
             longestChain = intermediateLongChain
             requiredNumber = number
+        print(number, intermediateLongChain)
         limit-=1
         number+=1
     return (requiredNumber, longestChain)
