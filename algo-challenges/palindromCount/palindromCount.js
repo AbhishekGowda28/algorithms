@@ -1,24 +1,38 @@
+// @ts-check
+
+/**
+ * @param {string} str
+ */
 function palindromCount(str) {
+    str = str.toLowerCase();
     let largestPalindrom = 0;
     let counter = 1;
-    let endCounter = str.length;
-    while(counter < endCounter) {
-     console.log(str[counter];
-     let distance = 1;
-     let previous = str[counter - distance];
-     let next = str[counter + distance];
-     let intermediatePalindromCount = 1;
-     while(previous === next){
-      distance++;
-      intermediatePalindromCount+=2;
-      previous = str[counter - distance];
-      next = str[counter + distance];
-     }
-     counter++;
+    let endCounter = str.length - 1;
+    while (counter < endCounter) {
+        let distance = 1;
+        let previous = str[counter - distance];
+        let next = str[counter + distance];
+        let intermediatePalindromCount = 1;
+        while (previous === next && previous !== undefined) {
+            distance++;
+            intermediatePalindromCount += 2;
+            previous = str[counter - distance];
+            next = str[counter + distance];
+        }
+        if (intermediatePalindromCount > largestPalindrom && intermediatePalindromCount !== 1) {
+            largestPalindrom = intermediatePalindromCount;
+        }
+        counter++;
     }
-    return str;
+    return largestPalindrom;
 }
 
-const str = "ababa";
-const result = palindromCount(str);
+let str = "ababa";
+let result = palindromCount(str);
+console.log(result);
+str = "palindromStringabaValue";
+result = palindromCount(str);
+console.log(result);
+str = "Abhishek Gowda";
+result = palindromCount(str);
 console.log(result);
