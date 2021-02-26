@@ -1,8 +1,13 @@
-function decimalToBinary(decimal){
+function decimalToBinary(decimal, base) {
     const binaryArray = [];
-    while(decimal > 0){
-        binaryArray.push(decimal % 2);
-        decimal = Number((decimal / 2).toFixedString(0));
+    while (decimal > 1) {
+        const reminder = decimal % base;
+        decimal = Number(decimal / base).toFixed(0);
+        binaryArray.unshift(reminder);
     }
+    binaryArray.unshift(decimal);
     return binaryArray;
-} 
+}
+
+console.log(decimalToBinary(10, 2));
+console.log(decimalToBinary(12, 2));
