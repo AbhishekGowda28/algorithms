@@ -1,7 +1,12 @@
 function filterLadder(data, filterProperties) {
-    Object.keys(filterProperties).filter(key => {
-        return data.filter(d => d[key] === filterProperties[key]);
+    const keys = Object.keys(filterProperties);
+    let dataCollected = [...data];
+    keys.forEach((key) => {
+        dataCollected = dataCollected.filter(d => {
+            return d[key] === filterProperties[key];
+        });
     });
+    return dataCollected;
 }
 
 const data = [{
@@ -22,7 +27,9 @@ const data = [{
 
 const filterProperties = {
     class: "A",
-    strength: "B"
+    strength: "C"
 };
 
 const result = filterLadder(data, filterProperties);
+
+console.log({ result });
