@@ -9,27 +9,4 @@ function filterLadder(data, filterProperties) {
     return dataCollected;
 }
 
-const data = [{
-    name: "Abhi",
-    class: "C",
-    strength: "none"
-},
-{
-    name: "Ripple",
-    class: "A",
-    strength: "A"
-},
-{
-    name: "Wabe",
-    class: "A",
-    strength: "B"
-}];
-
-const filterProperties = {
-    class: "A",
-    strength: "C"
-};
-
-const result = filterLadder(data, filterProperties);
-
-console.log({ result });
+module.exports = { filterLadder };
