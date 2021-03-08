@@ -1,4 +1,4 @@
-import { filterLadder } from "../filterLadder";
+const { filterLadder } = require("../filterLadder");
 
 describe("Filtering of object", () => {
     test("Test 1", () => {
